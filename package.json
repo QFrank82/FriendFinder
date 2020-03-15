@@ -1,17 +1,25 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Bootcamp Homework 11",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QFrank82/FriendFinder.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QFrank82/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/QFrank82/FriendFinder#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "path": "^0.12.7"
   }
 }
